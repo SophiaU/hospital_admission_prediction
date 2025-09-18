@@ -24,7 +24,7 @@ MINIO_ENDPOINT = st.secrets.get("MINIO_ENDPOINT", "http://minio:9000")
 MINIO_ACCESS_KEY = st.secrets.get("MINIO_ACCESS_KEY", "admin")
 MINIO_SECRET_KEY = st.secrets.get("MINIO_SECRET_KEY", "admin123")
 MINIO_BUCKET = st.secrets.get("MINIO_BUCKET", "gold")
-# BUCKET = st.secrets.get("BUCKET", "silver")
+BUCKET = st.secrets.get("BUCKET", "silver")
 
 # Create boto3 client for MinIO
 s3 = boto3.client(

@@ -1,4 +1,7 @@
 # app.py
+# Installs
+!pip install streamlit pandas numpy joblib boto3 prophet xgboost matplotlib seaborn pyarrow jupyter-server-proxy
+# Imports
 import streamlit as st
 import pandas as pd
 import numpy as np

@@ -1,0 +1,12 @@
+# Installs
+streamlit
+pandas
+numpy
+joblib
+boto3
+prophet
+xgboost
+matplotlib
+seaborn
+pyarrow
+jupyter-server-proxy
